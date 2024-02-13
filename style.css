@@ -1,0 +1,123 @@
+body{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ }
+      .card{
+
+        color: rgba(255, 255, 255, 0.842);
+        border-radius: 10px;
+        padding: 0.5rem;
+        text-align: center;
+        background-color: #37c6a7; /* Fallback color */
+        background-image: linear-gradient(to bottom right, #37c6a7 10%, rgb(201, 146, 201) 130%);
+        
+       }
+
+       .card .card-title{
+
+        /* border: 1px solid red; */
+        padding: 0.2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100;
+
+       }
+       .card .card-title input{
+        
+           
+           border-radius: 6rem;
+           border: 1px solid white;
+           text-align: center;
+           font-size: small;
+           padding: 0.5rem;
+           min-width: 11.5rem;
+           outline: none;
+
+       }
+       .card .card-title .searchBtn{
+        
+         min-width: 3.2rem;
+         border: 1px solid rgba(255, 255, 255, 0.432);
+         padding: 0.2rem;
+         border-radius: 27rem;
+         opacity: 0.8;
+
+        }
+        .card .card-title .searchBtn button{
+              
+          border: none;
+          background: transparent;
+          cursor: pointer;
+          
+      }
+        
+
+        .card .card-title .searchBtn i{
+              
+            color: white;
+            font-size: small;
+            opacity: 0.7;
+           transition: all 0.1s;
+        }
+        .card .card-title .searchBtn i:hover{
+              
+             opacity: 1;
+              transform: scale(1.2);
+          }
+
+          .card-body{
+
+            /* border: 1px solid; */
+            display: flex;
+            flex-direction: column;
+
+          }
+          .card-body .Wheather-condition-img #img{
+               
+            width: 4rem;
+                   
+          }
+          .card-body .Wheather-temprature{
+            /* border: 1px solid red; */
+            padding: 0.5rem;
+            margin: 1rem 0.5rem;
+            margin-top: 0;
+            
+          }
+          .card-body .Wheather-temprature b{
+            font-size:x-large;
+            font-weight: 400;
+          }
+          .card-body .Wheather-condition {
+            
+            /* border: 1px solid; */
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem;
+            
+          }
+          .card-body .Wheather-condition i{
+            
+          color: white;
+          font-size: x-large;
+          margin-right: 0.3rem;
+        
+          }
+          .error{
+
+            width: 100%;
+            padding: 0.3rem;
+            display: none;
+
+            
+          }
+        
+         
+        
+         
+         
